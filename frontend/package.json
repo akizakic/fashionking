@@ -1,0 +1,13 @@
+{
+    "name": "frontend",
+    "version": "1.0.0",
+    "main": "App.js",
+    "dependencies": {
+      "expo": "~41.0.1",
+      "react": "17.0.1",
+      "react-dom": "17.0.1",
+      "react-native": "0.63.4",
+      "axios": "^0.21.1"
+    }
+  }
+  
