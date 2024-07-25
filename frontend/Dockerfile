@@ -1,6 +1,6 @@
 FROM node:14
 
-WORKDIR /app
+WORKDIR /app  # 작업디렉토리
 
 RUN npm install -g expo-cli
 
