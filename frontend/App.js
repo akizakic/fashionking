@@ -13,7 +13,7 @@ export default function App() {
       .catch(error => console.error(error));
   }, []);
 
-  const addClothes = () => {
+  const addClothes = () => {    #변경 필요
     axios.post('http://backend:5000/addClothes', { name, type })
       .then(response => {
         setClothes([...clothes, response.data]);
