@@ -25,7 +25,7 @@ const ClothesSchema = new mongoose.Schema({
 const Clothes = mongoose.model('Clothes', ClothesSchema);
 
 // 라우트 설정
-app.get('/', (req, res) => res.send('Hello World'));
+app.get('/', (req, res) => res.send('Hello World'));  #수정 필요
 
 app.post('/addClothes', (req, res) => {
     const newClothes = new Clothes({
