@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY package.json ./
 RUN npm install
-
+# ㅁㄴㅇㄹ
 COPY . .
 
 EXPOSE 5000
